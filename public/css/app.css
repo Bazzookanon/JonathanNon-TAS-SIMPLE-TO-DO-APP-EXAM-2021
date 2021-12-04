@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap);
+@charset "UTF-8";
+
+.card-header {
+    background-color: #28A745;
+}
+
+h4 {
+    color: white;
+    font-weight: bold;
+}
+
+h5 {
+    color: white;
+    font-weight: bold;
+}
+
+/* This css is for normalizing styles. You can skip this. */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #555;
+    padding-right: 30px;
+}
+
+input[type='checkbox']:checked {
+    background: #663399;
+}
+
+.card-header {
+    text-align: center;
+}
